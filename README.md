@@ -83,7 +83,7 @@ MyBlog
 
 <br/><br/>
 
-### 환경 설정
+## 환경 설정
 <br/>
 
 > **주요 파일들:** <br/>
@@ -94,7 +94,7 @@ MyBlog
 
 <br/>
 
-#### settings.py
+### settings.py
 > 다양한 설정이 있는데 프로젝트 구성 후 사용하는 순서대로 작성하겠다.
 
 <br/>
@@ -114,6 +114,7 @@ DATABASES = {
 }
 ```
 <br/>
+
 ###### SQLite
 ```python
 DATABASES = {
@@ -124,3 +125,12 @@ DATABASES = {
 }
 ```
 <br/>
+
+##### 지역화
+```python
+LANGUAGE_CODE = 'ko-kr'
+TIME_ZONE = 'Asia/Seoul'
+USE_I18N = True
+USE_L10N = True
+USE_TZ = False
+```
