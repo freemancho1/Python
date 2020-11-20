@@ -133,6 +133,19 @@ USE_L10N = True
 USE_TZ = False
 ```
 
+<br/>
+
+### urls.py
+```python
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('', include('common.urls')),
+    path('admin/', admin.site.urls),
+]
+```
+
 <br/><br/>
 
 ## 기타
