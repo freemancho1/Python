@@ -39,7 +39,7 @@ $ conda activate {env-name}
 > 원하는 패키지를 설치한다. 여기서는 django, mysqlclient를 설치한다.
 <br/>
 
-#### 전체 소스
+#### 전체 예
 <pre>$ conda create -n django python=3.8
 $ conda activate django
 (django) $ pip list
