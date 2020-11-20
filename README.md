@@ -113,7 +113,7 @@ DATABASES = {
     }
 }
 ```
-<br/>
+<br/>    
 ###### SQLite
 ```python
 DATABASES = {
