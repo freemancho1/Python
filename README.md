@@ -78,5 +78,37 @@ MyBlog
     ├── settings.py
     ├── urls.py
     └── wsgi.py </pre>
+
 > 위와 같은 트리 구조를 가지고 프로젝트를 수행하고 싶기 때문이다.
+
+<br/><br/>
+
+### 환경 설정
 <br/>
+
+> **주요 파일들:** <br/>
+> * settings.py - 해당 장고 프로젝트의 여러가지 설정을 정의한 파일(아래 내용은 설정할 내용이 많아서 별도로 빼둔 파일들이다.)
+> * urls.py - 장고 프로젝트에서 관리하는 URL을 정의한 파일
+> * wsgi.py - Web Server Gateway Interface(웹표준 서비스 인터페이스) 설정 파일, Django와 WAS를 연결하기 위한 설정들이 들어감
+> * asgi.py - Asynchronous Server Gateway Interface(비동기 웹서비스 및 애플리케이션 인터페이스) 설정 파일
+
+<br/>
+
+#### settings.py
+> 다양한 설정이 있는데 프로젝트 구성 후 사용하는 순서대로 작성하겠다.
+
+<br/>
+
+##### DATABASES
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django_apps',
+        'USER': 'freeman',
+        'PASSWORD': 'free4567',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+```
