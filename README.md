@@ -4,11 +4,11 @@
 
 <br/>
 
-> 기본적인 소프트웨어 
-> * conda 4.8.4
-> * python 3.8.5
-> * django 3.1.3
-> * mysqlclient 2.0.1
+### 기본적인 소프트웨어 
+* conda 4.8.4
+* python 3.8.5
+* django 3.1.3
+* mysqlclient 2.0.1
 
 <br/>
 
