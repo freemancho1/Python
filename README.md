@@ -10,5 +10,11 @@
 * django 3.1.3
 * mysqlclient 2.0.1
 
+<br/><br/><br/>
+
+## Django 프로젝트 생성
 <br/>
 
+### conda 환경설정 및 관련 프로그램 설치
+#### 환경 생성
+<pre>$ conda create -n {env-name} python={version}</pre>
