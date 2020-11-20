@@ -112,8 +112,7 @@ DATABASES = {
         'PORT': '3306',
     }
 }
-```
-<br/>    
+```    
 ###### SQLite
 ```python
 DATABASES = {
