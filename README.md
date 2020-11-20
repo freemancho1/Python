@@ -132,3 +132,23 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = False
 ```
+
+<br/><br/>
+
+## 기타
+<br/>
+
+### 프로젝트 DB 적용
+> manage.py가 있는 폴더에서 실행한다.
+<br/>
+
+<pre>(django) $ python manage.py makemigrations {app-name}
+(django) $ python manage.py migrate</pre>
+<br/>
+
+### Admin Web 관리자 생성
+<pre>(django) $ python manage.py createsuperuser</pre>
+<br/>
+
+### Apps 생성
+<pre>(django) $ python manage.py startapp common</pre>
