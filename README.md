@@ -165,3 +165,10 @@ urlpatterns = [
 
 ### Apps 생성
 <pre>(django) $ python manage.py startapp common</pre>
+<br/>
+
+### Web server 실행
+<pre>(django) $ python manage.py runserver {port}</pre>
+> {port}의 기본값을 8000임
+<pre> http://localhost:8000/admin </pre>
+
