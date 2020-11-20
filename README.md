@@ -15,6 +15,10 @@
 ## Django 프로젝트 생성
 <br/>
 
-### conda 환경설정 및 관련 프로그램 설치
-#### 환경 생성
-<pre>$ conda create -n {env-name} python={version}</pre>
+### CONDA 환경 생성 및 관련 프로그램 설치
+##### 환경 생성 및 환경 진입
+<pre>$ conda create -n {env-name} python={version}     
+$ conda activate {env-name}</pre>
+#### 관련 프로그램 설치
+<pre>$ pip list</pre>
+
