@@ -159,6 +159,12 @@ urlpatterns = [
 (django) $ python manage.py migrate</pre>
 <br/>
 
+> 아래와 같이하면 현재 django가 인식하고 있는 테이블 생성 DDL을 리턴한다. <br/>
+> **여기서 생성된 DDL은 최근 수정한 models.py의 내용이 아니고 마지막으로 django가 인식한 DDL이다.**
+
+<pre>(django) $ python namage.py sqlmigrate {app-name} 0001</pre> <br/> 
+> DB에서 해당 테이블을 지우고, 이 DDL로 테이블을 생성한 후, 다시 migrate하면, 정상적으로 최종 테이블이 만들어 진다.
+
 ### Admin Web 관리자 생성
 <pre>(django) $ python manage.py createsuperuser</pre>
 <br/>
